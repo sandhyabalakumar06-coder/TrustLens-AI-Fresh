@@ -5,10 +5,11 @@
   "description": "TrustLens AI scam intelligence backend",
   "main": "src/server.ts",
   "scripts": {
-    "dev": "tsx watch src/server.ts",
-    "start": "tsx src/server.ts",
-    "typecheck": "tsc --noEmit"
-  },
+  "dev": "tsx watch src/server.ts",
+  "build": "tsc",
+  "start": "tsx src/server.ts",
+  "typecheck": "tsc --noEmit"
+},
   "dependencies": {
     "@prisma/client": "^6.19.3",
     "bcryptjs": "^3.0.3",
